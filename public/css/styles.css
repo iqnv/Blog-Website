@@ -1,13 +1,14 @@
 html {
   min-height: 100%;
-  position: relative;
+  position: sticky;
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .navbar {
+  position: sticky;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -15,6 +16,7 @@ html {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-image: url("shiva2.jpg");
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -22,6 +24,8 @@ html {
 
 .footer-padding {
 	padding-bottom: 60px;
+  position: sticky;
+
 }
 
 .footer {
@@ -30,14 +34,65 @@ html {
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color: #2F4F4F;
 }
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
-  color: #fff;
+	font-size: 22px;
+  color: black;
 }
 .contact .contact_me {
   background-color: red;
+}
+.abcd {
+
+  border-radius: 12px;
+}
+.all {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+#home {
+  background-color: #DEB887;
+  text-decoration-color: black;
+}
+#about{
+  background-color: #8FBC8F;
+}
+#contact{
+  background-color: #B0C4DE;
+}
+#compose{
+  background-color: #FFB6C1;
+}
+
+.write{
+  text-align: center;
+  margin-top: 20px;
+  color: #00008B;
+}
+.write1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.button{
+  text-align: center;
+}
+.link_123{
+  color: black;
+}
+.boxes{
+  width: 400px;
+  background-color: white;
+  border-radius: 12px;
+}
+.navbar navbar-default{
+  background-image: url("shiva2.jpg");
+}
+.navbar-brand{
+  color: black;
 }
